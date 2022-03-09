@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarefa 02 Html e Css</title>
+        <style>
+
+            body{
+                background-color: white;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .aside{
+                height: 330px;
+                width: 220px;
+                border: 2px ;
+                margin: 15px;
+                background-color:rgb(98, 183, 182);
+                text-align: center;
+            }
+
+            .container{
+                width: 800px;
+                margin: auto;
+                margin-top: 100px;
+                border: 2px solid white;
+               background-color: rgb(253, 175, 177);
+            }
+
+            .flexcontainer{
+                display: flex;
+                text-align: center;     
+            }
+
+            .flexarticle{
+                margin: 15px;
+                display: flex;
+                background-color:rgb(250, 122, 123);
+                height: 330px;
+                width: 640px;
+                justify-content:center;
+                align-items:flex-end;
+                flex-wrap: wrap;                
+            }
+            
+
+            header{
+                margin: 15px;
+                height: 60px;
+                text-align: center;
+                background-color:rgb(152, 209, 199);
+                justify-content:center;                
+            }
+
+            footer{
+                margin: 15px;
+                height: 60px;
+                text-align: center;
+                background-color:rgb(152, 209, 199);
+                
+            }
+
+            .img{
+                borde: 2px solid black;
+                height: 150px;
+                width: 150px;
+                background-color: rgb(214, 213, 213);
+                margin:15px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header>
+                <h1 style="position: relative; top:10px">Header</h1>
+            </header>
+
+            <main class="flexcontainer">
+
+                <aside class="aside">
+                    <h2 style="position: relative; top:130px">Aside</h2>
+                </aside>
+
+
+                <article class="flexarticle">
+                    <div style="width: 100%;">
+                        <h1  style="position: relative; top:70px">Article</h1>
+                    </div>
+
+                    <div class="img">
+                        <h2  style="position: relative; top:35px">Image</h2>
+                    </div>
+                        
+                    <div class="img">
+                        <h2 style="position: relative; top:35px">Image</h2>    
+                    </div>
+
+                    <div class="img">
+                        <h2 style="position: relative; top:35px">Image</h2>
+                    </div>
+
+                </article>
+
+            </main>
+
+            <footer>
+
+                <h2 style="position: relative; top:15px">Footer</h2>
+            
+            </footer>
+
+
+        </div>
+    </body>
+
+</html>
