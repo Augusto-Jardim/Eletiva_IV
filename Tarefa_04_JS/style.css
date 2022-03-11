@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.image{
+    width: 50%;
+    height: 50%;
+    margin: 24%;
+    
+}
+
+.box_OFF{
+    background-color:rgb(17, 17, 17);
+    margin: 35%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+
+.box_ON{
+    background-color:white;
+    margin: 35%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+ 
+}
+
