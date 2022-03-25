@@ -1,0 +1,177 @@
+/*********************************Tags html**********************************/
+body{
+    background-color: black;
+    font-size: "times new roman", georgia, garamond;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+
+input{
+    width: 90%;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+
+    height: 40px;
+    color: white;
+    background-color: rgb(47, 47, 240);
+    border: none;
+    border-radius: 5px;
+    margin: 4%;
+    font-weight: bold;
+    
+}
+
+/*********************************Container**********************************/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+/*********************************imgfooter**********************************/
+.containerimg{
+    display: flex;
+    justify-content: center;
+    margin: 2%;   
+}
+
+.imgfooter{
+    width: 80px;
+    height: 250px;  
+}
+
+.boximg{
+    width: 80px;
+    height: 250px;
+    padding: 0.1%;    
+}
+
+/*********************************pratos**********************************/
+.container_P-A{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+}
+
+.container_img_P-A{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img_P-A{
+    width: 150px;
+    height: 220px;
+    margin: 10px;   
+}
+.boximg_P-A{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.price{
+    color: green;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+
+/*********************************quantity**********************************/
+.boxcontity{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4%;
+}
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.quantity.buttons_added .minus {
+    border-right: 0;
+}
+
+.quantity.buttons_added .plus {
+    border-left: 0;
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none;
+}
+
+/*********************************dados**********************************/
+.containerdados{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 4%;
+}
+.teste{
+    border: 2px solid black;
+    height: 5%;
+
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 5 Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="containerimg">
+            <div class="boximg">
+                <img src="img/img1.jpg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img2.jpg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img3.jpg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img4.jpeg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img5.jpeg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img6.jpg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img7.jpg" class="imgfooter">
+            </div>
+            <div class="boximg">
+                <img src="img/img8.jpeg" class="imgfooter">
+            </div>
+        </div>
+
+        <header>
+            <h1>Menu - Faça a sua escolha</h1>
+        </header>
+
+        
+
+            <div class="container_P-A">
+
+                <h2>Prato pricipal</h2>
+                Todos os pratos acompanham arroz e feijão, e a sobremesa do dia.
+
+                <div class="container_img_P-A">
+                    <div class="boximg_P-A">
+                        <img src="img/prato1.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 30,00
+                        </div>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+                    
+                    <div class="boximg_P-A">
+                        <img src="img/prato2.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 25,00
+                        </div>
+                        
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                        
+                    </div>
+                    <div class="boximg_P-A">
+                        <img src="img/prato3.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 22,00
+                        </div>
+
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            <div class="container_P-A">
+
+                <h2>Acompanhamento</h2>
+                Porções para uma pessoa.
+
+                <div class="container_img_P-A">
+                    <div class="boximg_P-A">
+                        <img src="img/acompanhamento1.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 10,00
+                        </div>
+                        
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+
+                    </div>
+                    
+                    <div class="boximg_P-A">
+                        <img src="img/acompanhamento2.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 8,00
+                        </div>
+                        
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+
+                    </div>
+                    <div class="boximg_P-A">
+                        <img src="img/acompanhamento3.jpg" class="img_P-A">
+                        <div class="price">
+                            R$ 12,00
+                        </div>
+                        
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="containerdados">
+                <h2>Dados Pessoais</h2>
+                <form>
+                    <input type="text" id="name" placeholder="Digite o seu nome"></input>
+                    <input type="text" id="phone" placeholder="Digite o seu telefone"></input>
+                    <input type="text" id="e-mail" placeholder="Digite o seu e-mail"></input>
+
+                </form>
+
+            </div>
+
+            <button onclick="calc()">Calcular</button>
+
+            <div id="request">
+                Pedidos
+            </div>
+        
+        </main>
+        
+        <script src="js/jquery-3.6.0.min.js"> </script>
+        <script src="js/jquery.mask.min.js"> </script>
+        <script src="js/quantity.js"> </script>
+        <script src="js/calc.js"> </script>
+        <script>
+            $(document).ready(function () {
+                $("#phone").mask("(99) 9999-99999");
+            });
+        </script>
+</body>
+
+</html>
